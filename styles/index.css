@@ -1,0 +1,60 @@
+body {
+    background-image: url(/);
+    background-size:contain ; /* or you can use 'contain' */
+    background-repeat: no-repeat;
+    background-position: top;
+}
+/* #logo{
+  width: 300px;
+  height: 10px;
+} */
+header {
+position: relative;
+display:flex;
+gap: 100px;
+justify-content: space-between;
+align-items: right;
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+/* font-size: 1.3rem; */
+}
+
+#hello{
+  margin: 70px;
+}
+
+/* a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  margin-right: 5px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  align-items: center;
+  background-color: #f1f1f1;
+  color: black;
+  align-content: center;
+}
+
+.next {
+  align-items: center;
+  background-color: #04AA6D;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+} */
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  left: 73%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
